@@ -14,6 +14,6 @@ public class Main {
         System.out.println(name.text());
 
         Element price = spanElement.select("div[class=price] b").first();
-        System.out.println(price.text());
+        System.out.println(price.text());   
     }
 }
